@@ -1,0 +1,25 @@
+dfn.hasTooltip {
+  color: #3388dd;
+  border-bottom: dashed 1px #3388dd;
+  cursor: pointer;
+}
+dfn.hasTooltip .dfnTooltip {
+  display: block;
+  position: absolute;
+  width: 200px;
+  font-size: 11px;
+  border: solid 1px #206ebd;
+  background: #ffffff;
+  color: #333333;
+}
+dfn.hasTooltip .dfnTooltip .dfnTooltipTerm {
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+  background-color: #206ebd;
+  color: #ffffff;
+}
+dfn.hasTooltip .dfnTooltip .dfnTooltipDefinition {
+  display: block;
+  padding: 5px;
+}
