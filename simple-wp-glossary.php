@@ -17,7 +17,7 @@ function wr_swpg_add_definitions( $content ) {
 		foreach ( $glossary_items as $i ) {
 			$term = $i->post_title;
 			$definition = $i->post_excerpt;
-			$regex[] = "/({$term})(?!([^<]+)?>)/i";
+			$regex[] = "/(\b{$term}\b)(?!([^<]+)?>)/i";
 			$replacements[] = "<dfn title=\"{$definition}\">$1</dfn>";
 		}
 		return preg_replace( $regex, $replacements, $content, 1 );	
