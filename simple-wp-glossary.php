@@ -5,7 +5,7 @@
  * Description: Automatically adds inline definitions for glossary terms
  * Author: Ash Matadeen
  * Author URI: http://ashmatadeen.com
- * Version: 0.1
+ * Version: 1.0
  */
 
 add_filter( 'the_content', 'wr_swpg_add_definitions' );
