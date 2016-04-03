@@ -3,8 +3,8 @@ Contributors: ash.matadeen
 Donate link: http://ashmatadeen.com/donate
 Tags: glossary, definition
 Requires at least: 4.2.2
-Tested up to: 4.2.4
-Stable tag: 1.0
+Tested up to: 4.4.2
+Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
